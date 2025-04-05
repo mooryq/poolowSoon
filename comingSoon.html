@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풀로우 Coming Soon</title>
+    <meta name="description" content="자유수영 수영장을 지도위에서 검색하세요">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="풀로우 Coming Soon" />
+    <meta property="og:description" content="자유수영 수영장을 지도위에서 검색하세요." />
+    <meta property="og:image" content="/poolow.png" />
+  
+    <link rel="canonical" href="https://poolow.net/" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext x='50%25' y='50%25' font-size='50' text-anchor='middle' dominant-baseline='middle'%3E🌊%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&&family=Tektur:wght@400..900&display=swap');
+        @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Tektur',  "pretendard", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(to bottom,#f0f8ff 0%, #e6f3ff 25%, #d9eeff 50%, #cce8ff 75%, #c2e3ff 100%);
+            /* background: linear-gradient(to bottom, #E7FFBE 0%, #cce0f0 50%, #231DCD 100%); */
+            color: #333;
+            padding: 20px;
+            overflow: hidden;
+            
+        }
+
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            margin-top: -2rem;
+        }
+        
+        .korean-text {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+        
+        .english-text {
+            font-size: 7rem;
+            font-weight: 700;
+            line-height: 0.9;
+        }
+        
+        .english-text p:first-child{
+            font-size: 4rem;
+            font-weight: 400;
+        }
+
+        .coming-soon {
+            font-size: 4rem;
+            font-weight: 400;
+            color: #666666;
+            margin-top: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .korean-text {
+                font-size: 1.4rem;
+            }
+            
+            .english-text {
+                font-size: 2.4rem;
+            }
+            
+            .english-text p:first-child{
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+            .coming-soon {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .korean-text {
+                font-size: 1.1rem;
+            }       
+
+            .english-text p:first-child{
+                font-size: 1.2rem;
+                font-weight: 400;
+            }
+
+            .english-text {
+                font-size: 2.5rem;
+            }
+            
+            .coming-soon {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="korean-text">오늘 자유수영 어디서 할까?</div>
+        <div class="english-text"><p>let's go with the</p><p>poolow</p></div>
+        <div class="coming-soon">coming soon</div>
+    </div>
+</body>
+</html>
