@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://poolow.net/sitemap.xml
